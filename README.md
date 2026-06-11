@@ -23,22 +23,12 @@ java PlacementTracker
 > Requires JDK 17+ (uses switch expression syntax `->`)
 
 ## Features
-- Add / search / view students
-- Mark as placed at a company
-- Record company applications per student
-- View placement statistics (placed %, average CGPA)
-- **Undo** last action (Stack-based)
 
-## Resume Line
-> *"Developed a Java console application for student placement tracking using
-> HashMap for O(1) lookups, ArrayList for application management, and a
-> Stack-based undo feature — demonstrating core DSA concepts."*
+## Features
 
-## GitHub Steps
-```bash
-git init
-git add PlacementTracker.java README.md
-git commit -m "feat: add placement tracker with HashMap + ArrayList + Stack"
-git remote add origin https://github.com/<your-username>/placement-tracker.git
-git push -u origin main
-```
+- Add new student records
+- Search students using roll number
+- Track company applications
+- Mark students as placed
+- Generate placement statistics
+- Undo recent actions using Stack
